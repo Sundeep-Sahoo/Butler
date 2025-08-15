@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/middleware.js"],"sourcesContent":["// middleware.ts\r\nimport { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';\r\n\r\nconst isProtectedRoute = createRouteMatcher([\r\n  \"/dashboard(.*)\",\r\n  \"/account(.*)\",\r\n  \"/transaction(.*)\",\r\n]);\r\n\r\nexport default clerkMiddleware(async(auth, req) => {\r\n  const { userId }= await auth();\r\n  if(!userId && isProtectedRoute(req)){\r\n    const { redirectToSignIn }= await auth();\r\n\r\n    return redirectToSignIn();\r\n  }\r\n});\r\n\r\nexport const config = {\r\n  matcher: [\r\n    '/((?!_next|[^?]*\\\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',\r\n    '/(api|trpc)(.*)',\r\n  ],\r\n};\r\n"],"names":[],"mappings":"AAAA,gBAAgB;;;;;AAChB;AAAA;;AAEA,MAAM,mBAAmB,CAAA,GAAA,0KAAA,CAAA,qBAAkB,AAAD,EAAE;IAC1C;IACA;IACA;CACD;uCAEc,CAAA,GAAA,6KAAA,CAAA,kBAAe,AAAD,EAAE,OAAM,MAAM;IACzC,MAAM,EAAE,MAAM,EAAE,GAAE,MAAM;IACxB,IAAG,CAAC,UAAU,iBAAiB,MAAK;QAClC,MAAM,EAAE,gBAAgB,EAAE,GAAE,MAAM;QAElC,OAAO;IACT;AACF;AAEO,MAAM,SAAS;IACpB,SAAS;QACP;QACA;KACD;AACH"}},
+    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
