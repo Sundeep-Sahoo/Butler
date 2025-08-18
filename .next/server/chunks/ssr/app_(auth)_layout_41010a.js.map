@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/sunde/OneDrive/Desktop/Wealth/Wealth/my-app/app/%28auth%29/layout.js"],"sourcesContent":["const AuthLayout = ({ children }) => {\r\n  return <div className=\"flex justify-center pt-40\">{children}</div>;\r\n};\r\n\r\nexport default AuthLayout;"],"names":[],"mappings":";;;;;AAAA,MAAM,aAAa,CAAC,EAAE,QAAQ,EAAE;IAC9B,qBAAO,8OAAC;QAAI,WAAU;kBAA6B;;;;;;AACrD;uCAEe"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://H%3A/majaor%20p/buttler/app/%28auth%29/layout.js"],"sourcesContent":["const AuthLayout = ({ children }) => {\r\n  return <div className=\"flex justify-center pt-40\">{children}</div>;\r\n};\r\n\r\nexport default AuthLayout;"],"names":[],"mappings":";;;;;AAAA,MAAM,aAAa,CAAC,EAAE,QAAQ,EAAE;IAC9B,qBAAO,8OAAC;QAAI,WAAU;kBAA6B;;;;;;AACrD;uCAEe"}},
     {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }

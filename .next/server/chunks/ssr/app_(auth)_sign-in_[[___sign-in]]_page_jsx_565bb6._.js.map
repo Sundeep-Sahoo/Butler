@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/sunde/OneDrive/Desktop/Wealth/Wealth/my-app/app/%28auth%29/sign-in/%5B%5B...sign-in%5D%5D/page.jsx"],"sourcesContent":["import React from 'react'\r\nimport { SignIn } from '@clerk/nextjs';\r\nconst Page = () => {\r\n  return  <SignIn />;\r\n  \r\n}\r\n\r\nexport default Page\r\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AACA,MAAM,OAAO;IACX,qBAAQ,8OAAC,sLAAA,CAAA,SAAM;;;;;AAEjB;uCAEe"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://H%3A/majaor%20p/buttler/app/%28auth%29/sign-in/%5B%5B...sign-in%5D%5D/page.jsx"],"sourcesContent":["import React from 'react'\r\nimport { SignIn } from '@clerk/nextjs';\r\nconst Page = () => {\r\n  return  <SignIn />;\r\n  \r\n}\r\n\r\nexport default Page\r\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AACA,MAAM,OAAO;IACX,qBAAQ,8OAAC,sLAAA,CAAA,SAAM;;;;;AAEjB;uCAEe"}},
     {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }
