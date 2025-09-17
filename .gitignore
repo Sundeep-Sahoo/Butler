@@ -12,3 +12,7 @@ npm-debug.log*
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+/lib/generated/prisma
+
+/lib/generated/prisma

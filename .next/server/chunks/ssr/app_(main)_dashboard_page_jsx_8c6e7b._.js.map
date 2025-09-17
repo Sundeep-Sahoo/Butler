@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://H%3A/majaor%20p/buttler/app/%28main%29/dashboard/page.jsx"],"sourcesContent":["import React from 'react';\r\n\r\nconst Dashboard = () => {\r\n    return <div> Dashboard Page </div>\r\n};\r\n\r\nexport default Dashboard;"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,YAAY;IACd,qBAAO,8OAAC;kBAAI;;;;;;AAChB;uCAEe"}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
